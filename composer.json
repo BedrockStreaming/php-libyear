@@ -1,16 +1,7 @@
 {
-  "name": "ecoapm/libyear",
-  "description": "A simple measure of software dependency freshness",
-  "homepage": "https://libyear.com",
+  "name": "BedrockStreaming/libyear",
+  "description": "Forked from https://github.com/ecoAPM/php-libyear",
   "readme": "README.md",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "ecoAPM",
-      "email": "steve@ecoAPM.com",
-      "homepage": "https://ecoAPM.com"
-    }
-  ],
   "bin": [
     "libyear"
   ],
