@@ -4,7 +4,7 @@
 
 use LibYear\Factory;
 
-const vendor_indicator = 'vendor' . DIRECTORY_SEPARATOR . 'ecoapm' . DIRECTORY_SEPARATOR . 'libyear';
+const vendor_indicator = 'vendor' . DIRECTORY_SEPARATOR . 'bedrockstreaming' . DIRECTORY_SEPARATOR . 'libyear';
 $is_vendored = strpos(__DIR__, vendor_indicator) === strlen(__DIR__) - strlen(vendor_indicator);
 require_once __DIR__ . ($is_vendored ? '/../../..' : '') . '/vendor/autoload.php';
 
